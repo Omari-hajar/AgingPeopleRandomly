@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0DFB3A275E26B700DDA448 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DFB39275E26B700DDA448 /* PersonData.swift */; };
+		CC0DFB3C275E281400DDA448 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DFB3B275E281400DDA448 /* PersonCell.swift */; };
 		CC90C2B3275E25190017B290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90C2B2275E25190017B290 /* AppDelegate.swift */; };
 		CC90C2B5275E25190017B290 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90C2B4275E25190017B290 /* SceneDelegate.swift */; };
 		CC90C2B7275E25190017B290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90C2B6275E25190017B290 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC0DFB39275E26B700DDA448 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		CC0DFB3B275E281400DDA448 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		CC90C2AF275E25190017B290 /* AgingPeopleRandomly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgingPeopleRandomly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC90C2B2275E25190017B290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC90C2B4275E25190017B290 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC0DFB38275E26A700DDA448 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DFB39275E26B700DDA448 /* PersonData.swift */,
+				CC0DFB3B275E281400DDA448 /* PersonCell.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		CC90C2A6275E25190017B290 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		CC90C2B1275E25190017B290 /* AgingPeopleRandomly */ = {
 			isa = PBXGroup;
 			children = (
+				CC0DFB38275E26A700DDA448 /* models */,
 				CC90C2B2275E25190017B290 /* AppDelegate.swift */,
 				CC90C2B4275E25190017B290 /* SceneDelegate.swift */,
 				CC90C2B6275E25190017B290 /* ViewController.swift */,
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0DFB3A275E26B700DDA448 /* PersonData.swift in Sources */,
+				CC0DFB3C275E281400DDA448 /* PersonCell.swift in Sources */,
 				CC90C2B7275E25190017B290 /* ViewController.swift in Sources */,
 				CC90C2B3275E25190017B290 /* AppDelegate.swift in Sources */,
 				CC90C2B5275E25190017B290 /* SceneDelegate.swift in Sources */,
